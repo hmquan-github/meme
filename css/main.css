@@ -1,0 +1,771 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* body
+{
+	background-image: url(../images/background-01.png);
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+
+} */
+body
+{
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+@font-face {
+  font-family: hh;
+  src:url(../QX_LatypeSans.ttf);
+}
+.container
+{
+	width: 1440px;
+	margin: 0 auto;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+.logo
+{
+	width: 1440px;
+	height: 100px;
+	padding-top: 20px;
+	background:#ffffff;
+	text-align: center;
+}
+.me1
+{
+	width: 200px;
+	height: 500px;
+	background: #FFFFFF;
+	margin-left: 400px;
+	float: left;
+		cursor: url(../images/mouse-10.png),auto;
+}
+
+#svgContainer {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+.gioithieu
+{
+	width: 630px;
+	background:#FFFFFF;
+	float:left; 
+	margin-left: 50px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+.gioithieu2
+{
+	width: 450px;
+	background:#FFFFFF;
+	float:left; 
+	padding: 0 50px;
+	font-family: hh;
+	font-weight: 600;
+		cursor: url(../images/mouse-10.png),auto;
+
+
+}
+.gioithieu3
+{
+	width: 400px;
+	background:#E5E5E5;
+	float:left; 
+	padding: 0 20px; 
+	border-radius: 20px;
+    font-family: hh;
+	margin-left: 50px;
+	margin-right: 300px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+.clear
+{
+	clear: both;
+}
+
+.button1 ul
+{
+	list-style-type: none;
+	margin: 20px 70px;
+
+}
+.button1 ul li
+{
+	float: left;
+	margin: 30px;
+	font-family: hh;
+	font-size: 30pt;
+
+}
+.button1 ul li a
+{
+	text-decoration: none;
+	color: #000000;
+	position: relative;
+	font-weight: 600;
+
+}
+.button1 ul  img
+{
+	position:absolute;
+	visibility: hidden;
+	left: -50px;
+	top: -50px;
+	z-index: -1000;
+}
+
+.button1 ul li a:hover img
+{
+	visibility: visible;
+}
+
+
+
+
+
+
+.button11 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color:#E5E5E5;
+  border: none;
+  border-radius: 15px;
+  float:left;	
+	margin-left: 650px;
+	margin-top: 20px;
+	
+}
+
+.button11:hover {background-color:#C4C4C4}
+
+.button11:active {
+  background-color:#B9B9B9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button11 a
+{
+	text-decoration: none;
+	color: #000;
+	font-family: hh;
+	font-size: 25pt;
+	font-weight: 600;
+}
+
+
+
+
+
+.container2
+{
+	width: 1440px;
+	background:#CD5E60;
+	margin: 0 auto;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+.offlogo
+{
+	position: absolute;
+	z-index: 1000;
+	margin-left: 35.5%;
+
+}
+.offlogo:hover 
+{
+	opacity: 0;
+}
+.onlogo
+{
+	position: absolute;
+	margin-left: 35.5%;
+}
+
+.container22
+{
+	margin: 0 auto;
+	background-image: url(../images/background-01.png);
+	background-attachment:fixed;
+	width: 1400px;
+	height: 2500px;
+	margin-top: 50px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+
+.container22 h1
+{
+	font-family: hh;
+	font-size: 70pt;
+	font-weight: 600;
+	margin-top: 30px;
+	background: #FFFFFF;
+}
+
+
+
+.container33
+{
+	margin: 0 auto;
+	background-image: url(../images/background-01.png);
+	background-attachment:fixed;
+	width: 1400px;
+	height: 1500px;
+	margin-top: 50px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+
+.container33 h1
+{
+	font-family: hh;
+	font-size: 70pt;
+	font-weight: 600;
+	margin-top: 30px;
+	background: #FFFFFF;
+	
+}
+
+
+.container44
+{
+	margin: 0 auto;
+	background-image: url(../images/background-01.png);
+	background-attachment:fixed;
+	width: 1400px;
+	height: 3000px;
+	margin-top: 50px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+
+.container44 h1
+{
+	font-family: hh;
+	font-size: 70pt;
+	font-weight: 600;
+	margin-top: 30px;
+	background: #FFFFFF;
+}
+
+.ani1
+{
+	background: #ffffff;
+	width: 500px;
+	margin-left: 150px;
+	margin-top: 150px;
+	float: left;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+.content1
+{
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+	font-family: hh;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+
+.footer
+{
+	background: #B4B4B4;
+	width: 100%;
+	height: 600px;
+	margin-top: 100px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+.footer .lylich img
+{
+	margin: 100px 100px  10px 300px;
+	float: left;
+}
+.footer p
+{
+	font-family: hh;
+	font-size: 40pt;
+	line-height: 30pt;
+	
+}
+.info
+{
+	background: #B4B4B4;
+	width: 600px;
+	height: 100px;
+	float: left;
+	margin-top: 55px;
+	cursor: url(../images/mouse-10.png),auto;
+
+}
+
+/* đki */
+form {
+  box-sizing: border-box;
+  margin: 0px auto 0;
+}
+ 
+input {
+  margin-bottom: 30px;
+	margin-top: 0;
+  width: 500px;
+  display: block;
+  border: none;
+  border-bottom: solid 1px #000;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 100%, #000 0%);
+  background-position: -200px 0;
+  background-size: 500px 100%;
+  background-repeat: no-repeat;
+  color:#606060;
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+ 
+.info button {
+  border: none;
+  background:#868686;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 150px;
+	height: 50px;	
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.info button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#gopy
+{
+	float:right;
+	margin-right: 300px;
+}
+#gopy button
+{
+	width: 90px;
+}
+
+/* đki */
+.footer button a
+{
+	font-family: hh;
+	font-size: 30pt;
+	color: #000;
+	font-weight: 600;
+	text-decoration: none;
+}
+.footer input
+{
+	font-family: hh;
+	font-size: 45pt;
+	color: #6A6A6A;
+}
+.footer a img
+{
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.footer h4
+{
+	font-family: hh;
+	font-size: 30pt;
+	margin-top: 0;
+	font-weight: lighter;
+	color: #4F4F4F;
+}
+
+.container4
+{
+	background:#ACACAC;
+	width: 100%;
+	height: 500px;
+	margin-top: 130px;
+	text-align: center;
+	cursor: url(../images/mouse-10.png),auto;
+}
+.container4 img
+{
+	margin-top: -120px;
+		cursor: url(../images/mouse-10.png),auto;
+
+}
+
+
+.button22 {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color:#848484;
+  border: none;
+  border-radius: 10px;
+	margin-top: 40px;
+	width: 250px;
+
+}
+
+.button22:hover {background-color:#C4C4C4}
+
+.button22:active {
+  background-color:#B9B9B9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button22 a
+{
+	text-decoration: none;
+	color: #000;
+	font-family: hh;
+	font-size: 30pt;
+	font-weight: 600;
+}
+
+
+
+/* pop up */ 
+.modalDialog {
+		position: fixed;
+		font-family: hh;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+.modalDialog h2
+{
+	font-size: 35pt;
+}
+.modalDialog p
+{
+	font-size: 25pt;
+}
+.modalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+
+.modalDialog > div {
+		width: 400px;
+		position: relative;
+		margin: 10% auto;
+		padding: 50px 20px 13px 20px;
+		border-radius: 10px;
+		background: #fff;
+		background: -moz-linear-gradient(#fff, #fff);
+		background: -webkit-linear-gradient(#fff, #fff);
+		background: -o-linear-gradient(#fff, #fff);
+	text-align: center;
+	}
+
+.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+.close:hover { background: #000; }
+
+/* pop up */ 
+
+
+/* góp y */
+.container5 {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px 20px ;
+	
+	font-family: hh;
+	font-size: 20pt;
+}
+    .container5 input[type=text] 
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+ 
+.container5 label
+{
+	font-weight: 600;
+	
+}
+
+.container5 input[type=submit] {
+    background-color:#ACACAC;
+    color: white;
+    padding: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 90px;
+	height: 50px;
+	font-family: hh;
+	font-size: 30pt;
+	text-align: center;
+	
+	
+}
+ .container5 a
+{
+	text-decoration: none;
+}
+.container5 input[type=submit]:hover {
+    background-color:#555555;
+}
+
+.container5 button {
+  border: none;
+  background:#868686;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 50px;
+	height: 50px;	
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.container5 button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.container5 button a
+{
+	font-family: hh;
+	font-size: 30pt;
+	color: #000;
+	font-weight: 600;
+	text-decoration: none;
+}
+.container6
+{
+	width: 100%;
+	height: 350px;
+	margin-top: 80px;
+	text-align: center;
+	cursor: url(../images/mouse-10.png),auto;
+	background:#E4E4E4;
+	padding-top: 70px;
+}
+.container6 h1
+{
+	width: 900px;
+	height: 100px;
+	font-family: hh;
+	font-size: 50pt;
+}
+
+.camera
+{
+	text-align: center;
+	font-family: hh;
+	font-size: 35pt;
+	margin: 0 100px
+}
+
+.camera a:hover
+{
+	opacity: 0.2;
+}
+
+/* gallery */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* HIỆN ẢNH LÊN */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.3;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
